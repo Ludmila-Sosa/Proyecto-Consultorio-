@@ -1166,50 +1166,63 @@
     }
 
     .card1{
-        background-color: rgb(104, 177, 186);
+        background-color: rgb(47, 143, 157);
+        border-radius: 4px;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: end;
-        height: 300px;
+        height: 100%;
+        width: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-evenly;
     }
 
     .card2{
-        background-color: white;
+        border-radius: 4px;
+        background-color: rgb(59, 172, 182);
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 3;
         grid-row-end: end;
-        height: 300px;
+        height: 40vh;
+        width: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-evenly;
     }
 
     .card3{
-        background-color:rgb(104, 177, 186);
+        border-radius: 4px;
+        background-color:rgb(130, 219, 216);
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: end;
+        height: 100%;
+        width: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-evenly;
     }
 
     .card4{
-        background-color: white;
+        border-radius: 4px;
+        background-color:rgb(179, 232, 229);
         grid-column-start: 4;
         grid-column-end: 5;
         grid-row-start: 1;
         grid-row-end: end;
-        height: 300px;
+        height: 100%;
+        width: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-evenly;
     }
 
     .piePagina{
@@ -1280,6 +1293,56 @@
 
     .menu{
         height: 150px;
+    }
+
+    .animaciones{
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .cuadrado1, .cuadrado2{
+        border-radius: 4px;
+        height: 100px;
+        width: 100px;
+        margin: 150;
+        position: absolute;
+    }
+    
+    .cuadrado1{
+        background-color: rgb(104, 177, 186);
+    }
+    
+    .cuadrado2{
+        background-color: rgb(179, 232, 229);
+    }
+
+    .cuadrado2:hover{
+        transform: translate(30px, 30px);
+        transition: all 3s;
+    }
+
+    .rotacion1{
+        height: 75px;
+        width: 75px;
+        margin: 200px auto;
+        transition: all 2s;
+    }
+
+    .rotacion1:hover{
+        transform: rotate(90deg) scale(2) translateX(80px);
+    }
+
+    .rotacion2{
+        height: 75px;
+        width: 75px;
+        margin: 90px auto;
+        transition: all 2s;
+    }
+
+    .rotacion2:hover{
+        transform: rotate(90deg) scale(2) translateX(80px);
     }
 
     .dondeEstamos2{
@@ -1591,7 +1654,7 @@
     }
 
     .form{
-        background-color: rgb(104, 177, 186);
+        background-color: rgb(179, 232, 229);
         margin: auto;
         width: 90%;
         padding: 15px 3em;
