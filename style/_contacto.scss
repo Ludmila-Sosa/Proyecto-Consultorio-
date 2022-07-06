@@ -1,20 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Merriweather+Sans:wght@300&family=Nanum+Gothic&family=Nunito:wght@400;500;600;700;800&family=Poppins:wght@500&family=Quicksand:wght@300;400;500&display=swap');
-
-.consulta {
-    background-color: #d7d7b8;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
+.formContact{
+    background-image: url(../img/consultorio.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
 }
-    
 
-.consultatitle{
-    font-family: 'Nunito', sans-serif;
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
 }
-  
-.contacto {
+
+.titleContact{
+    color: #fff;
     font-family: 'Nunito', sans-serif;
-    height: 300px;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;   
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#botonContact{
+    background: #b88f93;
+    color: #fff;
+    padding: 20px;
+}
+
+#botonContact:hover {
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
 }

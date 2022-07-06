@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background:white;
+    background:#ededf2;
 }
 
 .card {
@@ -49,7 +49,7 @@
 
 .card .back {
     transform: perspective(600px) rotateY(180deg);
-    background: #d7d7b8;
+    background: #b88f93;
     padding: 15px;
     color: #f3f3f3;
     display: flex;
@@ -85,4 +85,8 @@
 
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
+}
+
+.cardText{
+    font-family: 'Quicksand', sans-serif;
 }

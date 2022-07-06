@@ -5,7 +5,7 @@
 }
 
 body{
-	background: #eeeff4;
+	background: #ededf2;
 }
 
 .wrapper .header{
@@ -52,7 +52,7 @@ body{
 
 .cards_wrap .card_item img{
 	margin-bottom: 5px;
-	height: 100px;
+	height: 150px;
 }
 
 .cards_wrap .card_item .role_name{
@@ -74,8 +74,9 @@ body{
 
 .cards_wrap .card_item .film{
 	padding-top: 2px;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 24px;
+	font-weight: 300;
 	color: black;
 }
 
